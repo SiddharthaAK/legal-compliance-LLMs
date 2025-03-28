@@ -8,7 +8,7 @@ from langchain.embeddings.base import Embeddings
 from langchain.schema import Document
 
 # Set your Mistral API key directly
-MISTRAL_API_KEY = "XHjNTKFaU9dNaGqkmMhuBE6WXRGAb7S0"  # Replace with your real API key
+MISTRAL_API_KEY = "<>"  # Replace with your real API key
 
 INDEX_PATH = "D:\\uni\\Sem 6\\LLMs\\legal-compliance-search\\embeddings\\faiss_index_store"
 
