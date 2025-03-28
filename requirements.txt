@@ -1,0 +1,18 @@
+# Core dependencies
+numpy
+faiss-cpu
+langchain
+langchain-community
+mistralai
+fastapi
+uvicorn
+streamlit
+
+# For PDF processing (if needed in `extract.py`)
+pymupdf  # OR pdfminer.six OR PyPDF2 (choose one)
+
+# If you're using Mistral embeddings
+openai  # Required for some Mistral API implementations
+
+# If you're using FastAPI
+pydantic>=2.0.0
